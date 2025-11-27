@@ -1,16 +1,31 @@
-# React + Vite
+# Генератор паролей
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Простой генератор случайных паролей с настройками.
 
-Currently, two official plugins are available:
+## Функции
+- Генерация случайных паролей
+- Настройка длины пароля (4-32 символа)
+- Выбор типов символов: заглавные, строчные, цифры, специальные
+- Копирование пароля в буфер обмена
+- Адаптивный дизайн
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Скриншоты работы
 
-## React Compiler
+### Главная страница
+![Главная страница](./screenshots/main.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Работоспособность
 
-## Expanding the ESLint configuration
+#### Генерация пароля
+![Генерация пароля](./screenshots/generated.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#### Копирование пароля
+![Копирование пароля](./screenshots/copy.png)
+
+#### Настройки символов
+![Настройки символов](./screenshots/settings.png)
+
+## Итог
+
+В рамках контрольной работы был создан генератор паролей на React.
+Данная работа помогла мне лучше понять работу с состоянием в React, обработку событий и создание интерактивных интерфейсов. Также укрепились знания по работе с хуками useState и манипуляциями с DOM.
